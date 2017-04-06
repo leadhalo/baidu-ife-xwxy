@@ -42,7 +42,9 @@ img{
 ul li{
   list-style: none;
 }
-
+*{
+  box-sizing: border-box;
+}
 /**
  * Add the correct display in IE 9-.
  */
@@ -272,7 +274,6 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
-  border: none;
 }
 input:focus{
   outline: none;
@@ -375,7 +376,7 @@ progress {
  */
 
 textarea {
-  overflow: auto;
+  resize: none;
 }
 
 /**
